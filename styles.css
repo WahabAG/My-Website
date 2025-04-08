@@ -1,0 +1,180 @@
+body {
+    color: #272a2a;
+    font-family:montserrat, serif;
+    margin:0px;
+    text-align: center;
+}
+
+a {
+    color: #11999E;
+    padding: 0 10px;
+    text-decoration: none;
+}
+a:hover {
+    color: #f1ecec;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: fantasy;
+    font-size: 5.625rem;
+    margin:50px auto 0 auto;
+}
+h2 {
+    color: #66BFBF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    
+}
+ h3 {
+    color: #FA8072;
+    font-family:Arial, Helvetica, sans-serif;  
+ }
+
+
+hr {
+    border: 2px dotted #EAF6F6;
+    margin: 30px auto;
+    width: 4%;
+}
+
+p {
+    line-height: 2;
+}
+
+.topP {
+    width: 40%;
+    margin: 50px auto;
+}
+
+
+.topContainer{
+    background-color: rgb(137, 226, 222);
+    margin: o;
+    padding-top: 50px;
+    position: relative;
+
+}
+
+.name, .aboutH {
+    color: #FA8072;
+}
+
+
+.middleContainer{
+    background-color: blanchedalmond;
+    padding: 100px 0;
+
+}
+.bottomContainer{
+    background-color: #66BFBF;
+    margin: 0;
+    padding: 50px 0 20px;
+    
+
+}
+
+.cloudOne{
+    position: absolute;
+    margin: 0;
+    padding: o;
+    right: 280px;
+    bottom: 550px;
+}
+.cloudTwo{
+    position: absolute;
+    margin: 0;
+    padding: o;
+    bottom: 350px;
+    left: 280px;
+}
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.displayPic {
+    width: 15%;
+}
+
+.webDev {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.phoneTech {
+    border-radius: 40%;
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.phoneGraphics{
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+.portfolio {
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+#projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+}
+@media (max-width:768px) {
+    #projects{
+        grid-template-columns:1fr;
+    }
+}
+.project1, .project2, .project3 {
+    background: #66BFBF;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.projImg{
+    width: 200px ;
+    padding: 20px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: montserrat;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+#copyRight {
+    color: #EAF6F6;
+    
+}
+
+.socials{
+    width: 40px;
+}
