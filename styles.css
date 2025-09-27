@@ -125,6 +125,7 @@ p {
 }
 #projects{
     display: grid;
+    justify-content: space-between;
     grid-template-columns: repeat(3, 1fr) ;
 }
 @media (max-width:768px) {
@@ -134,7 +135,7 @@ p {
 }
 .project1, .project2, .project3 {
     background: #66BFBF;
-    border-radius: 10px;
+    border: 10px solid blanchedalmond;
     padding: 20px;
 
 }
