@@ -125,11 +125,13 @@ p {
 }
 #projects{
     display: grid;
+    justify-items: center;
     justify-content: space-around;
     grid-template-columns: repeat(3, 1fr) ;
 }
 .project1, .project2, .project3 {
     background: #66BFBF;
+    border: 2px solid blanchedalmond;
     border-radius: 10px;
     padding: 20px;
 }
@@ -181,6 +183,7 @@ p {
     width: 40px;
 
 }
+
 
 
 
