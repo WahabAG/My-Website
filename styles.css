@@ -125,8 +125,7 @@ p {
 }
 #projects{
     display: grid;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     grid-template-columns: repeat(3, 1fr) ;
 }
 .project1, .project2, .project3 {
@@ -181,4 +180,5 @@ p {
 
 .socials{
     width: 40px;
+
 }
