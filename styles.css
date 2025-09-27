@@ -124,6 +124,7 @@ p {
     margin: 100px auto 100px auto;
 }
 #projects{
+    margin: 100px auto 100px auto;
     display: grid;
     justify-items: center;
     justify-content: space-around;
@@ -183,6 +184,7 @@ p {
     width: 40px;
 
 }
+
 
 
 
