@@ -136,6 +136,7 @@ p {
 .project1, .project2, .project3 {
     background: #66BFBF;
     border: 10px solid blanchedalmond;
+    border-radius: 10px;
     padding: 20px;
 
 }
