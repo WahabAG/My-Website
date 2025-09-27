@@ -125,7 +125,7 @@ p {
 }
 #projects{
     display: grid;
-    justify-content: center;
+    justify-content: space-around;
     grid-template-columns: repeat(3, 1fr) ;
 }
 .project1, .project2, .project3 {
@@ -181,5 +181,6 @@ p {
     width: 40px;
 
 }
+
 
 
