@@ -141,9 +141,7 @@ p {
 @media (max-width: 576px) {
     #projects {
         grid-template-columns: 1fr;   /* single column */
-        justify-items: center;
-        justify-content: center;
-        gap: 20px;
+        
     }
 }
 
@@ -151,9 +149,7 @@ p {
 @media (max-width: 768px) and (min-width: 577px) {
     #projects {
         grid-template-columns: repeat(2, 1fr);  /* two equal columns */
-        justify-items: center;
-        justify-content: center;
-        gap: 20px;
+        
     }
 }
 
